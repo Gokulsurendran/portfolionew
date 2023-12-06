@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/nav_bar.css">
+   <style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("./image/profilepic.png");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 40px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+    <div class="topnav">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a  href="./education.html">Education</a>
+            <a href="./reference.html">Reference</a>
+            <a class="active" href="#contact.html">Contact</a>
+            <!-- <a href="./workexperience.html">Work Experience</a>
+            <a href="./softwareskill.html">Software Skill</a> -->
+         </nav>
+
+    </div>
+    <div class="bg-image"></div>
+    <h2>Contact</h2>
+    <div class="bg-text">
+        <!-- <p>Phone</p>
+        <h3 id="one">Phone</h2>
+        <h2 id="two">7777777777</h2>
+        <h2 id="three">Email</h2>
+        <h2 id="four">gokulsurendran@gamil.com</h2>
+        <h2 id="five">website</h2>
+        <h2 id="six">google.com</h2>
+        <h2 id="seven">Address</h2>
+        <h2 id="eight">Kunnappilly House</h2> -->
+        <div class="container2">
+            <div class="left1">
+                <h3>Email</h3>
+            </div>
+            <div class="right1">
+            <p>gokulsurendran@gamil.com</p>
+            </div>
+        </div>
+        
+
+        <div class="container2">
+            <div class="left1">
+                <h3>website</h3>
+            </div>
+            <div class="right1">
+                <p>google.com</p>
+            </div>
+        </div>
+       
+
+        <div class="container2">
+            <div class="left1">
+                <h3>Address</h3>
+            </div>
+            <div  class="right1">
+                <p>ABC Street</p>
+                
+
+            </div>
+        </div>
+    </div>
+    
+  
+   
+</body>
+</html>

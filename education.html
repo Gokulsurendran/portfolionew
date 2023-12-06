@@ -1,0 +1,101 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Image Hover Text Effect with HTML & CSS</title>
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        table {
+      width: 500px;
+      height: 500px;
+      background-color: rgba(255, 255, 255, 0);
+      position: relative;
+      animation-name: example;
+      animation-duration: 4s;
+    }
+      
+          .bg-image {
+  background-image: url("./image/profilepic.png");
+  
+  /* Add the blur effect */
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+        
+        
+        </style>
+	<link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/nav_bar.css">
+  
+</head>
+<body>
+    <div class="topnav">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a class="active" href="#education.html">Education</a>
+            <a href="./reference.html">Reference</a>
+            <a href="./contact.html">Contact</a>
+            <!-- <a href="./workexperience.html">Work Experience</a>
+            <a href="./softwareskill.html">Software Skill</a> -->
+         </nav>
+
+    </div>
+    <div class="bg-image"></div>
+	
+    <div class="bg-text">
+        <div class="image__overlay image__overlay--primary">
+			<div class="image__title"></div>
+			<p class="image__description">
+                <!-- <h1>SSLC</h1>
+				<h2>Holy child convent</h2>
+                <h1>PLUS TWO</h1>
+                <h2>St Antony H S S</h2>
+                <h1>BTECH</h1>
+                <h2>Mar Athanasius College </h2> -->
+                <table>
+                       
+                  <tr>
+                      <td><b>2023</b></td>
+                      <td><b>Mar Athanasius College of Engineering</b><br>
+                          <br>Completed B.tech in Computer Science<br>
+                          from Mar Athanasius College of Engineering
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><b>2018</b></td>
+                      <td><b>St Antony H S S</b><br> <br>Completed plus two in Computer Science<br>
+                          from ST Antony H S S </td>
+                  </tr>
+                  <tr>
+                      <td><b>2016</b></td>
+                      <td><b>Holy Child Convent </b><br><br>Completed tenth <br>
+                          from Holy Child Convent </td>
+                  </tr>
+  
+               </table>
+
+			</p>
+		</div>
+    </div>
+</body>
+</html>

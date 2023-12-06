@@ -1,0 +1,130 @@
+.referenceinner{
+    display: flex;
+    width: 100%;
+}
+.refer1{
+    
+    flex: 1;
+}
+.refer2{
+    
+    flex: 1;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.left{
+    flex:1;
+
+}
+.right{
+    flex: 2;
+    padding-left:50px;
+   
+}
+.topnav a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(9, 9, 9);
+    text-decoration:none ;
+    padding:20px;
+    text-align: end;
+}
+
+.topnav a:hover{
+    color: red;
+}
+.topnav a.active{
+    color: red;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.left{
+    flex:1;
+    
+    color: white;
+
+}
+.right{
+    flex: 3;
+    
+}
+img{
+    height: 310px;
+    width: 310px;
+}
+.hrcolor{
+    border-top: 2px solid rgb(245, 174, 7);
+}
+.username{
+background-color: rgba(245, 163, 22, 0.852);
+text-align: center;
+height: 200px;
+}
+.username h1{
+    padding-top: 20px;
+}
+.username p{
+    font-size: 40px;
+}
+.container2{
+    display: flex;
+    width: 100%;
+}
+.left1{
+    flex:1;
+    /* background-color: rgb(236, 154, 14); */
+    width: 5px;
+    height: 30px;
+    
+
+}
+.right1{
+    flex: 2;
+    text-align: left;
+    /* background-color: rgb(70, 69, 66); */
+    width: 5px;
+    height: 30px;
+}
+
+.inner{
+    padding-left: 20px;
+}
+th, td{
+    padding: 25px;
+}
+.righthr{
+    border-top: 2px solid rgb(61, 61, 58);
+}
+.withoutimage{
+    padding-left: 20px;
+}
+.referenceinner{
+    padding-left: 30px;
+}
+.container3{
+    display: flex;
+    width: 100%;
+}
+.left2{
+    flex:1;
+}
+.right2{
+    flex: 3;
+    height: 1px;
+    background-color: green;
+}
+.hr1{
+    border-top: 2px solid rgb(225, 225, 68);
+}
+.left2{
+    width: 100px;
+}
+.paragraph{
+    padding-left: 95px;
+}
+
+   
+    
